@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | Mysl Asiata</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="navbar-brand">
+                <img src="./assets/Logo mysl asiata.png" alt="mysl asiata logo" class="logo-size-nav" />
+            </div>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-active" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mypackage.html">My Package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="jumbotron profile-container paralax paralaxsec">
+            <div class="transparent-layer flex-direc-column flex-center">
+                <img class="profile-photo" src="./assets/profile.jpg">
+                <b class="text-extralg text-align-center margin-30" id="title3">Welcome back, Chandra</b>
+                <b class="text-med" id="phoneNumber"></b>
+                <p class="text-lg">Rp <b>100000</b></p>
+                <div class="sp-32"></div>
+                <button class="btn-phone" onclick="location.href = './login.html'">Logout</button>
+            </div>
+        </div>
+
+        <div class="margin-30 flex-direc-column flex-center" id="recommendedPackages">
+            <canvas id="mycanvas"></canvas>
+            <div class="sp-32"></div>
+            <b class="text-lg text-align-center">Recommended Packages</b>
+            <div class="sp-16"></div>
+            <div class="sp-32"></div>
+            <div class="flex-direc-row flex-center package-flex">
+                <div class="package-container">
+                    <div class="package-bg package-picture">
+                        <div class="package-transparent-layer flex-direc-column">
+                            <div class="package-info">
+                                <b class="text-md">Combo Package</b>
+                                <div class="sp-32"></div>
+                                <b class="text-lg">14 GB</b>
+                                <b class="text-md">30 Days</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-price flex-direc-row">
+                        <b class="text-extramed">Rp 100.000</b>
+                        <button class="btn-buy">Buy</button>
+                    </div>
+                </div>
+                <div class="package-container">
+                    <div class="package-bg package-picture">
+                        <div class="package-transparent-layer flex-direc-column">
+                            <div class="package-info">
+                                <b class="text-md">Combo Package</b>
+                                <div class="sp-32"></div>
+                                <b class="text-lg">14 GB</b>
+                                <b class="text-md">30 Days</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-price flex-direc-row">
+                        <b class="text-extramed">Rp 100.000</b>
+                        <button class="btn-buy">Buy</button>
+                    </div>
+                </div>
+                <div class="package-container">
+                    <div class="package-bg package-picture">
+                        <div class="package-transparent-layer flex-direc-column">
+                            <div class="package-info">
+                                <b class="text-md">Combo Package</b>
+                                <div class="sp-32"></div>
+                                <b class="text-lg">14 GB</b>
+                                <b class="text-md">30 Days</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-price flex-direc-row">
+                        <b class="text-extramed">Rp 100.000</b>
+                        <button class="btn-buy">Buy</button>
+                    </div>
+                </div>
+                <div class="package-container">
+                    <div class="package-bg package-picture">
+                        <div class="package-transparent-layer flex-direc-column">
+                            <div class="package-info">
+                                <b class="text-md">Combo Package</b>
+                                <div class="sp-32"></div>
+                                <b class="text-lg">14 GB</b>
+                                <b class="text-md">30 Days</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-price flex-direc-row">
+                        <b class="text-extramed">Rp 100.000</b>
+                        <button class="btn-buy">Buy</button>
+                    </div>
+                </div>
+                <div class="package-container">
+                    <div class="package-bg package-picture">
+                        <div class="package-transparent-layer flex-direc-column">
+                            <div class="package-info">
+                                <b class="text-md">Combo Package</b>
+                                <div class="sp-32"></div>
+                                <b class="text-lg">14 GB</b>
+                                <b class="text-md">30 Days</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-price flex-direc-row">
+                        <b class="text-extramed">Rp 100.000</b>
+                        <button class="btn-buy">Buy</button>
+                    </div>
+                </div>
+                <div class="package-container">
+                    <div class="package-bg package-picture">
+                        <div class="package-transparent-layer flex-direc-column">
+                            <div class="package-info">
+                                <b class="text-md">Combo Package</b>
+                                <div class="sp-32"></div>
+                                <b class="text-lg">14 GB</b>
+                                <b class="text-md">30 Days</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-price flex-direc-row">
+                        <b class="text-extramed">Rp 100.000</b>
+                        <button class="btn-buy">Buy</button>
+                    </div>
+                </div>
+                <div class="package-container">
+                    <div class="package-bg package-picture">
+                        <div class="package-transparent-layer flex-direc-column">
+                            <div class="package-info">
+                                <b class="text-md">Combo Package</b>
+                                <div class="sp-32"></div>
+                                <b class="text-lg">14 GB</b>
+                                <b class="text-md">30 Days</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-price flex-direc-row">
+                        <b class="text-extramed">Rp 100.000</b>
+                        <button class="btn-buy">Buy</button>
+                    </div>
+                </div>
+                <div class="package-container">
+                    <div class="package-bg package-picture">
+                        <div class="package-transparent-layer flex-direc-column">
+                            <div class="package-info">
+                                <b class="text-md">Combo Package</b>
+                                <div class="sp-32"></div>
+                                <b class="text-lg">14 GB</b>
+                                <b class="text-md">30 Days</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-price flex-direc-row">
+                        <b class="text-extramed">Rp 100.000</b>
+                        <button class="btn-buy">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="flex-direc-column flex-center">
+        <p class="text-lg">MySL Asiata</p>
+        <p class="text-extrasm">The best selular provider in Indonesia</p>
+        <nav>
+            <section>
+                <a href="home.html">Home</a>
+                <a href="mypackage.html">My Package</a>
+                <a href="promo.html">Promo</a>
+                <a href="feedback.html">Feedback</a>
+                <a href="login.html">Logout</a>
+            </section>
+        </nav>
+    </footer>
+    <script src="home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var oldSize = parseFloat($("#title3").css('font-size'));
+            var newSize = oldSize  * 1.1;
+            
+            $("#title3").hover(
+                function() {
+                $("#title3").animate({ fontSize: newSize}, 200);
+                },
+                function() {
+                $("#title3").animate({ fontSize: oldSize}, 200);
+            }
+            );
+            
+        });
+        </script>
+</body>
+
+</html>
